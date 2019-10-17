@@ -5,7 +5,7 @@ real    ::  real1
 real    ::  real2
 character(100)  ::  char1, char2
 
-print*, int1, int2
+print*, "ints intial:", int1, int2, int3
 
 int1=1
 int2=3
