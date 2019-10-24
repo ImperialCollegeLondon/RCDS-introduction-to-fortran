@@ -1,5 +1,7 @@
 program conditionals
 
+    implicit none
+    
     real    :: real1, real2
 
     real1=1.2

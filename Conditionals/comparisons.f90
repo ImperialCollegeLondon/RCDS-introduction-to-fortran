@@ -1,5 +1,6 @@
 program comparisons
 
+    implicit none
 
     integer ::  int1, int2
     real    ::  real1, real2

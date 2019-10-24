@@ -1,5 +1,7 @@
 program exercise_cubes
 
+    implicit none
+    
     real    ::  side_length
     integer ::  n_cube
     real    ::  volume_one_cube, surface_area_one_cube, volume_all_cubes

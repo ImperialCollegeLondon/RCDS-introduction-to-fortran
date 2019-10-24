@@ -1,5 +1,7 @@
 program arrays2d
 
+    implicit none
+    
     real, dimension(3,4)    :: array1
 
     array1=4

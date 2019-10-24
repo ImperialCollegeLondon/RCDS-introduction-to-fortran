@@ -1,5 +1,7 @@
 program array_operators
 
+    implicit none
+
     real, dimension(3)      ::  array1, array2
     real, dimension(4,3)    ::  array2d
 

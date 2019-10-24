@@ -1,5 +1,7 @@
 program logicals
 
+    implicit none
+    
     logical ::  logical1, logical2
 
     logical1=.true.

@@ -1,5 +1,7 @@
 program exercise_conditionals
 
+    implicit none
+
     real    ::  real1, real2
     logical ::  logical1, logical2
 
