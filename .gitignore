@@ -1,4 +1,6 @@
 *
 !.gitignore
 !*.f90
+!*.tex
+!*.pdf
 !*/
