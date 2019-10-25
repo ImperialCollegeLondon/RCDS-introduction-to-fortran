@@ -4,7 +4,7 @@ program exercise_array_operators
 
     real                    ::  radians45, distanceD
     real, dimension(3)      ::  posA, posB, posC, posD
-    real, dimension(3,3)    ::  rotation_matrix
+    real, dimension(3,3)    ::  rotation_matrix, posAext, posBext, posCext, posDext
 
     !Define posA
     posA=(/1,2,1/)
@@ -33,5 +33,7 @@ program exercise_array_operators
     !Calcualte the distance of Point D from the origin
     distanceD=sqrt(dot_product(posD, posD))
     print*, "Distance of PosD from origin: ", distanceD
+
+    !EXTENSION EXERCISE============================================================
 
 end program exercise_array_operators
