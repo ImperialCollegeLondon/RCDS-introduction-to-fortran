@@ -1,5 +1,7 @@
 program do_loops
 
+    implicit none
+
     integer ::  counter
 
     print*, "Loop 1"

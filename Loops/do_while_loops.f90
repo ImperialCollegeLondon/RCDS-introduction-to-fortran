@@ -1,5 +1,7 @@
 program do_while_loops
 
+    implicit none
+
     real    ::  real1
     integer ::  int1
 
