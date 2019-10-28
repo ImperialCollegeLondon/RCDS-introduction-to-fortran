@@ -29,6 +29,11 @@ program do_while_loops
         print*, int1, real1
     end do
 
+    print*, "Loop 4"
+    do while (real1<0)
+        real1=real1+1.0
+        print*, real1
+    end do
 
 
 end program do_while_loops
