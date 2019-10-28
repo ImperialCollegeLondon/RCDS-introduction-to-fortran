@@ -59,7 +59,7 @@ program exercise_conditionals
 
     if (real1<=real2 .and. real1>real2)then
         print*, "A"
-    else if(.false. .and. .not. real1/=real2)then
+    else if(.false. .and. (.not. real1/=real2))then
         print*, "B"
     end if
 
