@@ -7,15 +7,15 @@ program exercise_array_operators
     real, dimension(3,3)    ::  rotation_matrix, posAext, posBext, posCext, posDext
 
     !Define posA
-    posA=(/1,2,1/)
+    posA=(/1.0,2.0,1.0/)
     print*, "PosA: ", posA
 
     !Add the displacement to PosA to get PosB
-    posB=posA+(/3,-4,1/)
+    posB=posA+(/3.0,-4.0,1.0/)
     print*, "PosB", posB
 
     !Set PosC equal to double PosB
-    posC=posB*2
+    posC=posB*2.0
     print*, "PosC", PosC
 
     !Calcualte 45 degrees in radians
@@ -39,9 +39,9 @@ program exercise_array_operators
     !==============================================================================
 
     !Define PosAext
-    posAext(1,:)=(/1,2,1/)
-    posAext(2,:)=(/-1,0,1/)
-    posAext(3,:)=(/-3, -2, -2.5/)
+    posAext(1,:)=(/1.0,2.0,1.0/)
+    posAext(2,:)=(/-1.0,0.0,1.0/)
+    posAext(3,:)=(/-3.0, -2.0, -2.5/)
     print*, "PosAext"
     print*, posAext(1,:)
     print*, posAext(2,:)
@@ -67,15 +67,15 @@ program exercise_array_operators
     posDext(1,:)=matmul(rotation_matrix, posCext(1,:))
     posDext(2,:)=matmul(rotation_matrix, posCext(2,:))
     posDext(3,:)=matmul(rotation_matrix, posCext(3,:))
-    print*, "PosD: ", posD
+    print*, "PosDext "
     print*, posDext(1,:)
     print*, posDext(2,:)
     print*, posDext(3,:)
 
     !Calcualte the distance of Point D ext from the origin
-    distanceDext(1:)=sqrt(dot_product(posDext(1:), posDext(1:)))
-    distanceDext(2:)=sqrt(dot_product(posDext(2:), posDext(2:)))
-    distanceDext(3:)=sqrt(dot_product(posDext(3:), posDext(3:)))
+    distanceDext(1)=sqrt(dot_product(posDext(1,:), posDext(1,:)))
+    distanceDext(2)=sqrt(dot_product(posDext(2,:), posDext(2,:)))
+    distanceDext(3)=sqrt(dot_product(posDext(3,:), posDext(3,:)))
     print*, "Distance of PosD from origin: ", distanceDext
 
 end program exercise_array_operators
