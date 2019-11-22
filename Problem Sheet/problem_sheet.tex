@@ -124,14 +124,13 @@ For each of the following tasks, write a piece of code using "do" or "do while" 
     \end{itemize}
 \end{itemize}
 
-\section{Subroutines}
-Write a subroutine:
+
 
 
 \section{Functions 1}
 Write a function:
 \begin{itemize}
-    \item Named "cuboid_volume"
+    \item Named "cuboid\_volume"
     \item Takes the real arguments "height", "width", "length"
     \item Returns the product of these values
 \end {itemize}
@@ -141,5 +140,36 @@ Call this function with the following values and verify it produces the correct 
     \item Height=3.0, width=10.0, length=4.0
 \end {itemize}
 
+\section{Subroutines}
+Write a subroutine:
+
+
+
+\section{Modules}
+Computer codes can be very useful for calcualting statistics of a dataset. The mean $\bar{x}$ and standard deviation $\sigma$ of a dataset containing $N$ entries $x_{i}$ are defined as:
+
+\begin{alignat}{1}
+    \bar{x} & = \frac{\sum\limits_{1}^{N} x_{i}}{N} \\
+    \sigma &= \sqrt{\left(\frac{\sum\limits_{1}^{N} x_{i}}{N}-\bar{x}^{2}\right)}
+\end{alignat}
+
+Create two modules:
+\begin{itemize}
+    \item Named ``statistical\_moments'', containing:
+    \begin{itemize}
+        \item mean: A function which returns the mean of a 1D array with a deferred size
+        \item satndard deviation: A function which returns the standard deviation of a 1D array with a deferred size
+    \end{itemize}
+    \item Named ``analysis'', containing:
+    \begin{itemize}
+        \item stats\_analyser: A subrotuine which takes in a 1D array of deferred size and prints a message to the screen giving the mean and standard deviation of the array
+    \end{itemize}
+\end{itemize}
+
+Call stats\_analyser from a main program named ``stats\_example''with the following datasets and ensure the resultant mean and standard deviation are correct:
+\begin{itemize}
+    \item (1, 2, 3, 4, 5, 6, 7, 8, 9, 10) should give a mean of 5.5 and a standard deviation of 2.87
+    \item (1.01, 1.00, 0.99, 1.02, 0.98) should give a mean of 1.0 and a standard deviation of  0.0141
+\end{itemize}
 
 \end{document}
