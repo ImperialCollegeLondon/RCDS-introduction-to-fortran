@@ -141,8 +141,16 @@ Call this function with the following values and verify it produces the correct 
 \end {itemize}
 
 \section{Subroutines}
-Write a subroutine:
+Write a subroutine called ``swap'' which takes three arguments:
 
+\begin{itemize}
+    \item A one dimensional array of deferred size of real numbers
+    \item Two integers
+\end {itemize}
+
+The subroutine should modify the array by switching the values with the indices of the two integers. Test it with a few values.
+
+Now, consider what happens if one or both of the integers is greater than the size of the array. How does you code behave? How would you like it to behave?
 
 
 \section{Modules}
@@ -173,6 +181,6 @@ Call stats\_analyser from a main program named ``stats\_example''with the follow
 \end{itemize}
 
 \section{Errors}
-Look at the source file "compilation\_errors.f90". It contains many errors for a very simple program. Try to compile the code and use the errors the compiler gives you to work out what's wrong with it and fix it.
+Make a copy of the source file ``compilation\_errors.f90''. It contains many errors for a very simple program. Try to compile the code and use the errors the compiler gives you to work out what's wrong with it and fix it.
 
 \end{document}
