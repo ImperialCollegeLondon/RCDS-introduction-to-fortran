@@ -1,0 +1,1 @@
+gfortran -o gotchas gotchas.f90

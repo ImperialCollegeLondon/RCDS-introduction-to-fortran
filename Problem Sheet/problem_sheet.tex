@@ -150,7 +150,7 @@ Computer codes can be very useful for calcualting statistics of a dataset. The m
 
 \begin{alignat}{1}
     \bar{x} & = \frac{\sum\limits_{1}^{N} x_{i}}{N} \\
-    \sigma &= \sqrt{\left(\frac{\sum\limits_{1}^{N} x_{i}}{N}-\bar{x}^{2}\right)}
+    \sigma &= \sqrt{\left(\frac{\sum\limits_{1}^{N} x_{i}^{2}}{N}-\bar{x}^{2}\right)}
 \end{alignat}
 
 Create two modules:
@@ -171,5 +171,8 @@ Call stats\_analyser from a main program named ``stats\_example''with the follow
     \item (1, 2, 3, 4, 5, 6, 7, 8, 9, 10) should give a mean of 5.5 and a standard deviation of 2.87
     \item (1.01, 1.00, 0.99, 1.02, 0.98) should give a mean of 1.0 and a standard deviation of  0.0141
 \end{itemize}
+
+\section{Errors}
+Look at the source file "compilation\_errors.f90". It contains many errors for a very simple program. Try to compile the code and use the errors the compiler gives you to work out what's wrong with it and fix it.
 
 \end{document}
