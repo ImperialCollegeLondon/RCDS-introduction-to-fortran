@@ -4,7 +4,7 @@ program swap_exercise
 
     real, dimension(5)  ::  example_array
 
-    example_array=(/1,2,3,4,5/)
+    example_array = (/1,2,3,4,5/)
 
     print*, example_array
 
@@ -20,16 +20,17 @@ program swap_exercise
     contains
 
     subroutine swap(array, i1, i2)
-        real, dimension(:)  ::  array
+        real, dimension(5)  ::  array
         integer             ::  i1, i2
         real                ::  temporary
 
-        if (i1>size(array) .or. i2>size(array))then
-            print*, "One or both of the indices was bigger than the length of the array. Leaving the array unchanged."
+        if (i1 > 5 .or. i2 > 5 .or. i1 < 0 .or. i2 < 1)then
+            print*, "One or both of the indices was bigger than the length of the array or less than 1."
+            print*, "Leaving the array unchanged."
         else
-            temporary=array(i1)
-            array(i1)=array(i2)
-            array(i2)=temporary
+            temporary = array(i1)
+            array(i1) = array(i2)
+            array(i2) = temporary
         end if
 
     end subroutine
