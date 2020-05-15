@@ -1,5 +1,7 @@
 program functions
 
+    implicit none
+
     real    ::  real1, real2
 
     print*, function_name1(2.0, 4.0)
@@ -15,7 +17,7 @@ program functions
         real function function_name1(arg1, arg2)
             real    ::  arg1, arg2
 
-            function_name=arg1*arg2
+            function_name1=arg1*arg2
 
         end function function_name1
 

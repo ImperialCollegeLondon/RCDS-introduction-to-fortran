@@ -31,7 +31,7 @@ program allocatable_arrays
     print*, array2d2(3,:)
 
     !Find the size of the first array
-    print*, size(array2d1, 1)
+    print*, "Size: ", size(array2d1, 1)
 
     !Deallocate the first array
     deallocate(array2d1)

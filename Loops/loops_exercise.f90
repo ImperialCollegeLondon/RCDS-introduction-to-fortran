@@ -10,13 +10,13 @@ program loops_exercise
     do counter=1, 20 !Create a loop where the counter will take the values 1,2,3...20
 
         !First, chcek if the counter is a multiple of both 3 and 5
-        if (mod(counter,5)==0 .and. mod(counter,3)==0)then
+        if (mod(counter, 5)==0 .and. mod(counter, 3)==0)then
             print*, "FizzBuzz" !Print FizzBuzz
         !Next, check if it is a multiple of 3 (and not 5)
-        else if (mod(counter,3)==0)then
+        else if (mod(counter, 3)==0)then
             print*, "Fizz" !Print Fizz
         !Next, check if it is a multiple of 5 (and not 3)
-        else if (mod(counter,5)==0)then
+        else if (mod(counter, 5)==0)then
             print*, "Buzz" !Print Buzz
         else
         !Counter is not a multiple of 3 or 5, so print counter instead

@@ -1,8 +1,9 @@
 *
+~$
 !.gitignore
 !*.f90
 !*.tex
 !*.pdf
 !*.sh
-!*.pptx
+Introduction to Fortran Slides.pptx
 !*/
