@@ -10,9 +10,13 @@ This course involves writing, compiling and running Fortran code. The easiest op
 
 If you wish to bring your own laptop, you will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
 
+Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/pages/viewpage.action?spaceKey=HPC&title=Command+lines) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
+
 ### Webinar
 
 This course involves writing, compiling and running Fortran code. You will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
+
+Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/pages/viewpage.action?spaceKey=HPC&title=Command+lines) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
 
 ### Compiling Fortran on Your Own Machine
 
