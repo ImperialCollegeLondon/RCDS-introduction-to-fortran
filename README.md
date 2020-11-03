@@ -10,13 +10,13 @@ This course involves writing, compiling and running Fortran code. The easiest op
 
 If you wish to bring your own laptop, you will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
 
-Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/pages/viewpage.action?spaceKey=HPC&title=Command+lines) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
+Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/display/HPC/Command+line) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
 
 ### Webinar
 
 This course involves writing, compiling and running Fortran code. You will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
 
-Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/pages/viewpage.action?spaceKey=HPC&title=Command+lines) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
+Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/display/HPC/Command+line) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
 
 ### Compiling Fortran on Your Own Machine
 
@@ -36,6 +36,30 @@ In many cases the goal is to install a version of the Fortran compiler “gfortr
 
 **Any computer**: Open [https://www.onlinegdb.com/online_fortran_compiler](https://www.onlinegdb.com/online_fortran_compiler). Create an account so you can save your source files during the course.
 
-### Text Editor
+## Text Editor
 
 If you would like to complete the course on your own computer (and don’t want to use onlinegdb) you will need an editor to create your source files. I suggest using [VSCode](https://code.visualstudio.com/) but any text editor will be able to edit the source files as they are plain text files. VSCode is also available on the Imperial Software Hub.
+
+## Tips
+
+These are tips specific to different methods of compiling and running Fortran code. Read the tips relevant for the method you've chosen.
+
+### MinGW
+
+When you open MinGW, you will first need to tell MinGW to look at the contents of your machine's hard drive to be able to find , compile and run Fortran source files. To do this, type ```cd /c/``` to see files stored on your C drive, ```cd /d/``` to see files stored on your D drive and so on.
+
+When you compile a file, the executable produced may gain the extension ```.exe.```. When you run the file, include the extension in the command. For instance, type ```./executable_name.exe``` to run a file with that name.
+
+### Windows Subsystem for Linux
+
+When you open Windows Subsystem for Linux, you will need to tell it to look at the contents of your machine's hard drive to be able to find , compile and run Fortran source files. To do this, type ```cd /mnt``` and press enter. Then type  ```cd c``` to look at files in your C drive, ```cd d``` to look at files in your D drive and so on.
+
+### OnlineGDB
+
+The interface here deals with a lot of the complexity of compilation without needing you to type in the commands yourself. This means some of the early sections which focus on compilation will not be relevant to this method. Instead, you need to click "Run" just above the code to compile and tun the code. It's still worth paying attention to the section on compilation as this is a much more common way to run Fortran code.
+
+### VSCode
+
+It is easiest to open a folder to work from using File -> Open Folder. Chose the folder where you stored the course materials. You should see the directory structure in the panel on the left. This view will let you open a file by left-clicking; rename or delete a file by right clicking and create a file by right clicking an empty location in the view. To make a Fortran file, give it the extentsion .f90.
+
+When you first open a Fortran file, you may get a message asking if you want to search the marketplace for an extension to help view the file. Say yes and install the "fortran" extension by Xavier Hahn. This will allow syntax highlighting and other useful features which will make it easier to read/write code.
