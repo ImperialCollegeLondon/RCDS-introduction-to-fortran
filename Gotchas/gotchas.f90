@@ -20,12 +20,12 @@ program gotchas
 
     infinity=infinity+1.0
 
-    print*, "Inifinity again: ", infinity
+    print*, "Infinity again: ", infinity
 
     nan=infinity-infinity
 
     print*, "Not a number: ", nan
 
-    print*, "Another way to inifinity: ", log(zero)
+    print*, "Another way to infinity: ", log(zero)
 
 end program gotchas

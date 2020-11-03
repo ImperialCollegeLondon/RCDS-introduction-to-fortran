@@ -22,8 +22,6 @@ contains
         sum_of_squares=dot_product(dataset, dataset)
         mean_data=mean(dataset)
 
-        print*, sum_of_squares, mean_data
-
         evaluation=sqrt(sum_of_squares/size(dataset)-mean_data**2)
 
     end function standard_deviation

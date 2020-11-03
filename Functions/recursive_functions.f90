@@ -4,6 +4,8 @@ program recursive_functions
     print*, factorial(4)
     print*, factorial(-1)
 
+    print*, "End"
+
     contains
 
         recursive function factorial(value)result(evaluation)

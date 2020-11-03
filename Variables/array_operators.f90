@@ -27,7 +27,7 @@ program array_operators
 
     print*, "Matrix Multiplication: ", matmul(array2d, array1)
 
-    print*, "Mininum value: ", minval(array1)
+    print*, "Minium value: ", minval(array1)
 
     print*, "Maximum location: ", maxloc(array2d)
 

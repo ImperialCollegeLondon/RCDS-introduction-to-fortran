@@ -10,16 +10,4 @@ program stats_example
     print*, "Dataset 2"
     call stats_analyser((/1.01, 1.00, 0.99, 1.02, 0.98/))
 
-
-
-
-
-
-
-
-
-
-
-
-
 end program stats_example

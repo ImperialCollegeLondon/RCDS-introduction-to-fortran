@@ -10,7 +10,7 @@ program arrays1d
     print*, "Array1: ", array1
     array1(2)=10
     print*, "Array1: ", array1
-    array1(3:)=15
+    array1(3:5)=15
     print*, "Array1: ", array1
     array1(4:)=(/2,8,7/)
     print*, "Array1: ", array1

@@ -2,7 +2,7 @@ program allocatable_arrays
     !Declare two two-dimensional allocatable arrays
     integer, dimension(:,:), allocatable    ::  array2d1, array2d2
 
-    !Check if the arrays are initially allcoated
+    !Check if the arrays are initially allocated
     print*, "Allocated:", allocated(array2d1), allocated(array2d2)
 
     !Allocate one of the arrays

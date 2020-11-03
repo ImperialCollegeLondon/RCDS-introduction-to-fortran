@@ -24,7 +24,7 @@ program swap_exercise
         integer             ::  i1, i2
         real                ::  temporary
 
-        if (i1 > 5 .or. i2 > 5 .or. i1 < 0 .or. i2 < 1)then
+        if (i1 > 5 .or. i2 > 5 .or. i1 < 1 .or. i2 < 1)then
             print*, "One or both of the indices was bigger than the length of the array or less than 1."
             print*, "Leaving the array unchanged."
         else

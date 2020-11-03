@@ -21,7 +21,7 @@ program precision
     real5=real4-0.00001
     print*, "real5: ", real5
 
-    !This means the equality operator doesn't recongise real5 as being 0.0, because the stored value isn't
+    !This means the equality operator doesn't recognised real5 as being 0.0, because the stored value isn't
     print*, "Compare :", real5==0.0
 
     !One alternative is to check if the difference between the compared value is small.

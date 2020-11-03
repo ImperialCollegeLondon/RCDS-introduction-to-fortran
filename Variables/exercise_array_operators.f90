@@ -18,7 +18,7 @@ program exercise_array_operators
     posC=posB*2.0
     print*, "PosC", PosC
 
-    !Calcualte 45 degrees in radians
+    !Calculate 45 degrees in radians
     radians45=3.14159/4.0
 
     !Construct the rotation matrix
@@ -30,7 +30,7 @@ program exercise_array_operators
     posD=matmul(rotation_matrix, posC)
     print*, "PosD: ", posD
 
-    !Calcualte the distance of Point D from the origin
+    !Calculate the distance of Point D from the origin
     distanceD=sqrt(dot_product(posD, posD))
     print*, "Distance of PosD from origin: ", distanceD
 
