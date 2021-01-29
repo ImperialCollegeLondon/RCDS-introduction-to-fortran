@@ -13,7 +13,7 @@ module analysis
         mean_data=mean(dataset)
         standard_deviation_data=standard_deviation(dataset)
 
-        print*, "The mean of the dataset is ", mean_data, "and the standard deviation is ", standard_deviation_data
+        print*, "The mean of the dataset is ", mean_data, " and the standard deviation is ", standard_deviation_data
 
     end subroutine
 

@@ -1,4 +1,6 @@
 program subroutines
+    implicit none
+
     integer   ::  sum_current, product_current
 
     !Test the function on some values
