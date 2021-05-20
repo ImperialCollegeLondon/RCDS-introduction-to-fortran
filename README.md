@@ -1,5 +1,13 @@
 # Intro-to-Fortran
 
+## Pre-Course Instructions
+
+### Webinar
+
+This course involves writing, compiling and running Fortran code. You will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
+
+Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/display/HPC/Command+line) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
+
 ### Face to Face
 
 These courses will take place in an ICT computer room and so laptops are not required. If you do bring a laptop, please make sure it is fully charged.
@@ -9,12 +17,6 @@ The slides, examples and problem sheet are available [here](https://github.com/c
 This course involves writing, compiling and running Fortran code. The easiest option is available if you are using a college computer in the computer room by launching MinGw 2.3.2 on the Imperial Software Hub. If you wish to complete the course on a college workstation, there is no need to do anything before attending the course.
 
 If you wish to bring your own laptop, you will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
-
-Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/display/HPC/Command+line) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
-
-### Webinar
-
-This course involves writing, compiling and running Fortran code. You will need to install a Fortran compiler and a text editor on your machine. See the relevant sections of this file for instructions.
 
 Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/display/HPC/Command+line) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
 
