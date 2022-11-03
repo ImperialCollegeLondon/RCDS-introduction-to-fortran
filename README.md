@@ -65,3 +65,6 @@ The interface here deals with a lot of the complexity of compilation without nee
 It is easiest to open a folder to work from using File -> Open Folder. Chose the folder where you stored the course materials. You should see the directory structure in the panel on the left. This view will let you open a file by left-clicking; rename or delete a file by right clicking and create a file by right clicking an empty location in the view. To make a Fortran file, give it the extentsion .f90.
 
 When you first open a Fortran file, you may get a message asking if you want to search the marketplace for an extension to help view the file. Say yes and install the "fortran" extension by Xavier Hahn. This will allow syntax highlighting and other useful features which will make it easier to read/write code.
+
+## ReCoDE Exemplar
+ReCoDE is an collection of exemplar reseach codes created by Imperial students and curated by the RCDS team. [This exemplar](https://imperialcollegelondon.github.io/ReCoDE_Diffusion_Code/) shows one way Fortran is used in practice, in this case to solve a diffusion problem. It utilises several tools that are beyond the scope of this course - you can ignore these and focus on what we've talked about in this course, or you can attempt to learn about them from the exemplar. 
