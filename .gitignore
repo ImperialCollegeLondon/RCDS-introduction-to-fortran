@@ -1,9 +1,3 @@
-*
 ~$
-!.gitignore
-!*.f90
-!*.tex
-!*.pdf
-!*.sh
-Introduction to Fortran Slides.pptx
-!*/
+*.o
+*.mod
