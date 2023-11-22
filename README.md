@@ -33,7 +33,7 @@ In many cases the goal is to install a version of the Fortran compiler “gfortr
 
 **Mac or Windows**: Install [VirtualBox](https://www.virtualbox.org/) on your machine and download a [Ubuntu iso file](https://ubuntu.com/download/desktop). Use this to install a version of Ubuntu on your system. The instructions [here](https://www.virtualbox.org/manual/ch01.html) may prove useful. This allows you run Linux virtually inside your computer. Once doing so, follow the Linux instructions.
 
-**Any computer**: If you can't use any of the above methods to install a Fortran compiler, this repository is setup with a GitHub CodeSpace, enabling you to interact with the course materials on a pre-configured virtual computer on GitHub's servers. To access this, on the main page of the repository, click the green "Code" button, click the "Codespaces" tab and click the "+" to create a new virtual computer. This computer will be prconfigured to allow you to edit and compile Fortran code using VSCode and gfortran.
+**Any computer**: If you can't use any of the above methods to install a Fortran compiler, this repository is setup with a GitHub CodeSpace, enabling you to interact with the course materials on a pre-configured virtual computer on GitHub's servers. To access this, on the main page of the repository, click the green "Code" button, click the "Codespaces" tab and click the "+" to create a new virtual computer. This computer will be prconfigured to allow you to edit and compile Fortran code using VSCode and gfortran. If the Codespace seems to get stuck loading, reloading the page can often fix the problem.
 
 ## Text Editor
 
