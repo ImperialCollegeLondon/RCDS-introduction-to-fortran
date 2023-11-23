@@ -16,7 +16,8 @@
 	// Configure tool-specific properties.
 	"customizations": {
 	    "vscode": {
-	      "extensions": ["fortran-lang.linter-gfortran"]
+	      "extensions": ["fortran-lang.linter-gfortran", 
+		  "mathematic.vscode-pdf"]
 	    }
 	  }
 
