@@ -16,8 +16,8 @@ program subroutines
             integer    ::  arg1, arg2, result_sum, result_product
 
             !Calculate the sum and the product of arg1 and arg2
-            result_sum=arg1+arg2
-            result_product=arg1*arg2
+            result_sum = arg1 + arg2
+            result_product = arg1 * arg2
 
         end subroutine sum_product
 

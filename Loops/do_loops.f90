@@ -24,7 +24,7 @@ program do_loops
 
     print*, "Loop 4"
 
-    do counter=1, 10, -2
+    do counter = 1, 10, -2
         print*, counter
     end do
 

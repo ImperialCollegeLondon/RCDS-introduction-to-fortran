@@ -9,8 +9,8 @@ module module1
     subroutine modify(new1, new2)
         real    ::  new1, new2
 
-        global1=new1
-        global2=new2
+        global1 = new1
+        global2 = new2
     end subroutine modify
 
 

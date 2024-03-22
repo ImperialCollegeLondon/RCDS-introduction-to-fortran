@@ -5,8 +5,8 @@ program compilation_errors
     
         rel ::  value1, value2 
     
-        value1=1
-        value3=2
+        value1 = 1
+        value3 = 2
     
         print* addition(value1, value2)
     
@@ -15,6 +15,6 @@ program compilation_errors
         function addition(a, b)reslt(evaluation)
             real    ::  a, evaluation
     
-            evaluation==a+b
+            evaluation == a + b
     
         end subroutine adition

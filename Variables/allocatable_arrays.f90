@@ -20,7 +20,7 @@ program allocatable_arrays
     print*, array2d1(3,:)
 
     !Set the second array to be double the value of the first array
-    array2d2=array2d1*2
+    array2d2 = array2d1 * 2
 
     !Check that this has allocated the second array
     print*, "Allocated:", allocated(array2d1), allocated(array2d2)
@@ -39,6 +39,6 @@ program allocatable_arrays
     print*, "Allocated:", allocated(array2d1), allocated(array2d2)
 
     !If we try to assign to a location in the array while it's deallocated, we will get an error
-    array2d1(1,1)=1
+    array2d1(1,1) = 1
 
 end program allocatable_arrays

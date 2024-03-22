@@ -4,8 +4,8 @@ program logicals
     
     logical ::  logical1, logical2
 
-    logical1=.true.
-    logical2=.false.
+    logical1 = .true.
+    logical2 = .false.
 
     print*, logical1, logical2
 

@@ -4,11 +4,11 @@ program run_time_errors1
     real, dimension(3)  ::  array
     integer             ::  ii
     
-    do ii=1, 4
-        array(ii)=ii
+    do ii = 1, 4
+        array(ii) = ii
     end do
 
-    do ii=1, 4
+    do ii = 1, 4
         print*, array(ii)
     end do
 

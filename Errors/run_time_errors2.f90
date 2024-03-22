@@ -4,7 +4,7 @@ program run_time_errors2
 
     real, dimension(:), allocatable ::  array
 
-    array(1)=2.0
+    array(1) = 2.0
 
 
 

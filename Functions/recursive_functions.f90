@@ -11,10 +11,10 @@ program recursive_functions
         recursive function factorial(value)result(evaluation)
             integer ::  value, evaluation
 
-            if (value==0 .or. value==1)then
-                evaluation=1
-            else if(value>1)then
-                evaluation=value*factorial(value-1)
+            if (value == 0 .or. value == 1)then
+                evaluation = 1
+            else if(value > 1)then
+                evaluation = value * factorial(value - 1)
             else
                 stop "Cannot take the factorial of a negative number"
             end if

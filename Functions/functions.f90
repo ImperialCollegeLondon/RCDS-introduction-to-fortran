@@ -17,14 +17,14 @@ program functions
         real function function_name1(arg1, arg2)
             real    ::  arg1, arg2
 
-            function_name1=arg1*arg2
+            function_name1 = arg1 * arg2
 
         end function function_name1
 
         function function_name2(arg1, arg2)result(evaluation)
             real    ::  arg1, arg2, evaluation
         
-            evaluation=arg1*arg2
+            evaluation = arg1 * arg2
         
         end function function_name2
 

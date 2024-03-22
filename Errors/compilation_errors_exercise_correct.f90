@@ -5,8 +5,8 @@ program compilation_errors
 
     real ::  value1, value2 
 
-    value1=1
-    value2=2
+    value1 = 1
+    value2 = 2
 
     print*, addition(value1, value2)
 
@@ -15,7 +15,7 @@ program compilation_errors
     function addition(a, b)result(evaluation)
         real    ::  a, b, evaluation
 
-        evaluation=a+b
+        evaluation = a + b
 
     end function addition
 

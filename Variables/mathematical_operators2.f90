@@ -2,8 +2,8 @@ program mathematical_operators2
 
     real    ::  real1, real2
 
-    real1=0.8
-    real2=-2.4
+    real1 = 0.8
+    real2 = -2.4
 
     print*, "Sin: ", sin(real1)
 

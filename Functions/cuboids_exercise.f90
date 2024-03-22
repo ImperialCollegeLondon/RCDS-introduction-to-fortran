@@ -10,7 +10,7 @@ program cuboids_exercise
         function cuboid_volume(height, width, length)result(volume)
             real    ::  height, width, length, volume
 
-            volume=height*width*length
+            volume = height * width * length
         
         end function cuboid_volume
 

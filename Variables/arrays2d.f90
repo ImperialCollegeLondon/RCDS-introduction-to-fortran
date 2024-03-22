@@ -4,10 +4,10 @@ program arrays2d
     
     real, dimension(3,4)    :: array1
 
-    array1=4
-    array1(2,1)=1
-    array1(1,:)=(/5,10,4,6/)
-    array1(2:,2:)=array1(2:, :3)/2
+    array1 = 4
+    array1(2,1) = 1
+    array1(1,:) = (/5,10,4,6/)
+    array1(2:,2:) = array1(2:, :3)/2
 
     print*, "Array1 all: ", array1
 
