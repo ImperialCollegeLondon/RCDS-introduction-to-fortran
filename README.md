@@ -63,7 +63,7 @@ When you first open a Fortran file, you may get a message asking if you want to 
 
 Some basic usage of the command line will be required on this course. Students should read [this guide](https://wiki.imperial.ac.uk/display/HPC/Command+line) up to and including the section "Changing Directories". You do not need to log on to CX1 as the guide suggests, but should try to follow the commands in the program you are using to run the compiler.
 
-## Post-Course Follow-Up: ReCoDE Exemplar
+## Post-Course Follow-Up: ReCoDE Exemplars
 The RCDS team has curated a collection of annotated [exemplar projects](https://imperialcollegelondon.github.io/ReCoDE-home/exemplars/) known as [ReCoDE](https://imperialcollegelondon.github.io/ReCoDE-home/) which demonstrate core research computing and data science principles applied to real problems. Each exemplar is a real project created by an Imperial student based on their research. Each exemplar is accompanied by detailed descriptions of how they work, and the design decisions taken when constructing the code. There are two Fortran exemplars:
 
 * [**Turing Patterns and Partial Differential Equations**](https://imperialcollegelondon.github.io/ReCoDE-Turing-Patterns-and-Partial-Differential-Equations/): This exemplar focuses on solving Partial Differential Equations in Fortran using the popular numerical libraries LAPACK and BLAS. It also showcases how to use Fortran Package Manager to compile and manage a large project, including the implementation of unit-tests.
