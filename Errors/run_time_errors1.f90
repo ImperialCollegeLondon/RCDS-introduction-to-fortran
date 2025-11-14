@@ -1,5 +1,5 @@
 program run_time_errors1
-!This program fills an array with sequential nubmers, then prints the array
+!This program fills an array with sequential numbers, then prints the array
 
     real, dimension(3)  ::  array
     integer             ::  ii
